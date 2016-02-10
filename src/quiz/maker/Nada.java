@@ -14,5 +14,6 @@ public class Nada {
     
     public Nada(){
         System.out.println("test 123");
+        System.out.println("test 321");
     }
 }
