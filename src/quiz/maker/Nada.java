@@ -12,4 +12,7 @@ package quiz.maker;
  */
 public class Nada {
     
+    public Nada(){
+        System.out.println("test 123");
+    }
 }
