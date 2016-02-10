@@ -44,8 +44,9 @@ public class QuizScreen extends JPanel implements MouseListener {
     boolean nextClicked;
     boolean prevClicked;
 
-    public QuizScreen() {
+    public QuizScreen() {       
         super();
+        System.out.println("Quiz Screen Started");
         addMouseListener(this);
         currQues = 0;
         questions = new LinkedList<>();
